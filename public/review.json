@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Shahin Islam",
+        "img": "https://i.ibb.co/wzRmwMH/man2.jpg",
+        "description": "This fruit is vary testy.This fruit is vary testyThis fruit is vary testyThis fruit is vary testy"
+       
+
+    },
+    {
+        "id": 2,
+        "name": "Nasima Sultana",
+        "img": "https://i.ibb.co/q0Dm8wb/women.webp",
+        "description": "This fruit is vary testy.This fruit is vary testyThis fruit is vary testyThis fruit is vary testy"
+       
+    },
+    {
+        "id": 3,
+        "name": "Kabir Khan",
+        "img": "https://i.ibb.co/CsKr5fS/man3.jpg",
+        "description": "This fruit is vary testy.This fruit is vary testyThis fruit is vary testyThis fruit is vary testy"
+      
+    },
+    {
+        "id": 4,
+        "name": "Urmi sultana",
+        "img": "https://i.ibb.co/q0Dm8wb/women.webp",
+        "description": "This fruit is vary testy.This fruit is vary testyThis fruit is vary testyThis fruit is vary testy"
+      
+    }
+]

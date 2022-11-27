@@ -1,13 +1,16 @@
 import React from 'react';
 import Bannar from '../Bannar/Bannar';
-import Header from '../Header/Header';
+import Products from '../Products/Products';
+
+import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
     return (
-        <div>
-           <Header></Header>
-           <Bannar></Bannar>
-         
+        <div className=''>
+
+            <Bannar></Bannar>
+            <Products></Products>
+            <Reviews></Reviews>
         </div>
     );
 };

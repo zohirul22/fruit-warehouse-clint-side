@@ -1,0 +1,23 @@
+.review-card {
+    text-align: left;
+    background: linear-gradient(rgb(148, 148, 250), rgb(158, 233, 240));
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.review-img {
+    margin: 20px;
+    padding: 2px;
+    border: 10px solid rgb(179, 237, 245);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.review-des {
+    font-size: small;
+    color: rgb(54, 3, 101);
+    font-style: italic;
+}
+
+.review-name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
