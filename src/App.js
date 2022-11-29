@@ -6,6 +6,7 @@ import DetailPage from './Components/HomePage/DetailPage/DetailPage';
 import Footer from './Components/HomePage/Footer/Footer';
 import Header from './Components/HomePage/Header/Header';
 import Home from './Components/HomePage/Home/Home';
+import NotFound from './Components/HomePage/NotFound/NotFound';
 import Products from './Components/HomePage/Products/Products';
 import Reviews from './Components/HomePage/Reviews/Reviews';
 import Login from './Components/SocialPage/Login/Login';
@@ -28,7 +29,7 @@ function App() {
         <Route path='detailsPage/:detailsId' element={<DetailPage></DetailPage>}></Route>
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='signup' element={<SignUp></SignUp>}></Route>
-
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
