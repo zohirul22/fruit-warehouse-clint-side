@@ -15,7 +15,7 @@ const AllProduct = ({ product }) => {
 
                     <Card.Title style={{ 'fontSize': '12px' }}>Price: $ {price} (1 KG)</Card.Title>
                     <Card.Title style={{ 'fontSize': '12px' }}>Quantity:{quantity}</Card.Title>
-                    <Card.Text> {description} </Card.Text>
+                    <Card.Text  > {description} </Card.Text>
                 </Card.Body>
 
                 <Card.Body style={{'textAlign':'center'}}>

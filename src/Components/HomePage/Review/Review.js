@@ -10,7 +10,7 @@ const Review = ({ review }) => {
                 <Card.Img style={{'width':'150px'}}  className='review-img' variant="top" src={img}  />
                 <Card.Body>
                     <Card.Title className='review-name'>{name}</Card.Title>
-                    <p className='review-des'>**   {description}   **</p>
+                 
                   
                     <div style={{ 'fontSize': '15px' }}>
                                 <i class="fa-solid fa-star text-warning"></i>
@@ -19,6 +19,7 @@ const Review = ({ review }) => {
                                 <i class="fa-solid fa-star text-warning"></i>
                                 <i class="fa-solid fa-star text-warning"></i>
                             </div>
+                            <p className='review-des py-1'>**   {description}   **</p>
                    
                 </Card.Body>
             </Card>

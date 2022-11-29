@@ -10,9 +10,9 @@ const Reviews = () => {
             .then(data => setReviews(data))
     }, [])
     return (
-        <div className='review-page mt-5 '>
+        <div className='review-page' id='reviews'>
           <div className="container">
-          <h1 style={{'fontSize':'40px'}} className='products-title2 py-4'>All Review</h1>
+          <h1 style={{'fontSize':'40px'}} className='products-title2 pb-3'>All Review</h1>
             <div className="row g-5 ">
                 {
                     reviews.map(review => <Review

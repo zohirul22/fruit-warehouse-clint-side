@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import useProducts from '../../Hooks/UseProducts';
 import Product from '../Product/Product';
@@ -6,14 +5,10 @@ import './Products.css'
 
 const Products = () => {
   const [products , setProducts] = useProducts([])
-    // useEffect(() => {
-    //     fetch('products.json')
-    //         .then(res => res.json())
-    //         .then(data => setProducts(data))
-    // }, [])
+  
     return (
-        <div className="container">
-            <div className="">
+        <div id='products' className=" products p-5">
+            <div className="container">
                 <div className='mt-4 '>
                     <h1 className='text-success text-center my-4'>Ours Products</h1>
                     <div className=" row g-1">

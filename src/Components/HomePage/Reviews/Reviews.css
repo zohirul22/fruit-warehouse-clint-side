@@ -1,12 +1,15 @@
-.review-page{
-    background-image: url('../../../../src/img/back.png');
-    background-repeat: no-repeat;
+.review-page {
+    background-image: url('../../../../src/img/background/back1.png');
     background-size: cover;
-   
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 60px;
+
 }
 
-.products-title2{
+.products-title2 {
     font-size: 35px;
     color: aqua;
-    
+
+
 }

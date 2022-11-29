@@ -17,7 +17,7 @@ const Product = ({ product }) => {
 
 
     return (
-                <div className=' col-xm-12 col-sm-6 col-md-4 col-lg-2'>
+                <div className=' col-xm-12 col-sm-6 col-md-4 col-lg-2 '>
                     <Card className='product' >
                         <Card.Img className='card-img' variant="top" src={img} />
                         <Card.Body style={{ 'textAlign': 'left' }}>

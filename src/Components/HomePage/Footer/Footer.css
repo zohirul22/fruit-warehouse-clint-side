@@ -1,0 +1,18 @@
+.footer{
+ background-image: url('../../../../src/img/background/footer1.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+  padding: 20px 50px;
+    
+}
+
+.footer-para{
+    color: rgb(114, 123, 123);
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.footer-title{
+    color: rgb(165, 187, 206);
+}
