@@ -10,10 +10,8 @@ import NotFound from './Components/HomePage/NotFound/NotFound';
 import Products from './Components/HomePage/Products/Products';
 import Reviews from './Components/HomePage/Reviews/Reviews';
 import Login from './Components/SocialPage/Login/Login';
+import RequireAuth from './Components/SocialPage/RequireAuth/RequireAuth';
 import SignUp from './Components/SocialPage/SignUp/SignUp';
-
-
-
 
 function App() {
   return (
@@ -26,7 +24,16 @@ function App() {
         <Route path='reviews' element={<Reviews></Reviews>}></Route>
         <Route path='products' element={<Products></Products>}></Route>
         <Route path='allProducts' element={<AllProducts></AllProducts>}></Route>
-        <Route path='detailsPage/:detailsId' element={<DetailPage></DetailPage>}></Route>
+      
+          <Route path='detailsPage/:detailsId' element={
+            <RequireAuth>
+              <DetailPage></DetailPage>
+            </RequireAuth>
+          
+          }></Route>
+      
+
+
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='signup' element={<SignUp></SignUp>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>

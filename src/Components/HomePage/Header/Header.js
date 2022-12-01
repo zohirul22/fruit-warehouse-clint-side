@@ -3,8 +3,18 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from '../../../../src/img/header/e86a207b40753163e9886926ff9d5048.png';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../../firebase.init';
+import { signOut } from 'firebase/auth';
 
 const Header = () => {
+    const [user] = useAuthState(auth);
+
+    const handelSignOut =()=>{
+        signOut(auth)
+    }
+
+
     return (
         <Navbar sticky='top' className='navbar' style={{ 'padding': '0px' }} collapseOnSelect expand="lg" variant="dark">
             <Container>
@@ -18,7 +28,10 @@ const Header = () => {
 
                     </Nav>
                     <Nav>
-                        <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                        { user ? <Nav.Link onClick={handelSignOut}>SignOut</Nav.Link>:
+                            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                        }
+                        
                         <Nav.Link eventKey={2} href="#memes">
                             Dank memes
                         </Nav.Link>
