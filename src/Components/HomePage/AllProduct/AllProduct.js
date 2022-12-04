@@ -1,9 +1,36 @@
 import React from 'react';
 import { Card} from 'react-bootstrap';
+import useProducts from '../../Hooks/UseProducts';
 import './AllProduct.css'
 
 const AllProduct = ({ product }) => {
+    const [products, setProducts] = useProducts([]);
     const { name, img, price, supplier, description, quantity, id } = product;
+
+
+const deleteProduct=(id)=>{
+const proceed = window.confirm('Are U sure deleting');
+if(proceed){
+    const url = `http://localhost:5000/products/${id}`
+    fetch(url , {
+        method:'DELETE'
+    })
+    .then(res => res.json())
+    .then(data => {
+        console.log(data)
+        const reaming = products.filter(product => product._id !== id);
+        setProducts(reaming)
+    })
+
+}
+}
+
+
+
+
+
+
+
     return (
         <div className=' col-xm-12 col-sm-6 col-md-6 col-lg-4'>
             <Card className='card'>
@@ -20,7 +47,7 @@ const AllProduct = ({ product }) => {
 
                 <Card.Body style={{'textAlign':'center'}}>
                
-                <button class="button-33" role="button"> 
+                <button onClick={()=>deleteProduct(product._id)}  class="button-33" role="button"> 
             
                  Delete</button>
                   

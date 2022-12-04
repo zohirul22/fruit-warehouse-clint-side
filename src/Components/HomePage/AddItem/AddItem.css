@@ -1,0 +1,10 @@
+.addProduct{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid gainsboro;
+    padding:50px 20px;
+    background-color: rgba(171, 223, 223, 0.708);
+}
+
+.add-btn{
+    text-align: center;
+}

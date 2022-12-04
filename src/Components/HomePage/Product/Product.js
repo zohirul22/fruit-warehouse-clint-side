@@ -5,13 +5,13 @@ import { useNavigate } from 'react-router-dom';
 import './product.css'
 
 const Product = ({ product }) => {
-    const { name, img, price, supplier, description, quantity, id } = product;
+    const { name, img, price, supplier, description, quantity, _id } = product;
 
 
     const navigate = useNavigate();
 
-    const navigateUpdate = (id) => {
-        navigate(`/detailsPage/${id}`)
+    const navigateUpdate = (_id) => {
+        navigate(`/detailsPage/${_id}`)
     }
 
 
@@ -34,7 +34,7 @@ const Product = ({ product }) => {
                             </div>
                             {/******* btn ******** */}
                             <button
-                                onClick={() => navigateUpdate(id)}
+                                onClick={() => navigateUpdate(_id)}
                                 class="button-48"
                                 role="button">
                                 <span class="text">

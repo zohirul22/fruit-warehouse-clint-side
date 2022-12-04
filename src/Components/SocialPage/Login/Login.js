@@ -59,9 +59,7 @@ const Login = () => {
                 <Form.Group className="mb-3 ms-2" controlId="formBasicEmail">
                     <Form.Label className='text-success ' style={{ 'fontSize': '20px' }}>Email address</Form.Label>
                     <Form.Control className='w-75' type="email" placeholder="Enter email" required name='email' />
-                    <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
-                    </Form.Text>
+                  
                 </Form.Group>
 
                 <Form.Group className="mb-3 ms-2" controlId="formBasicPassword">

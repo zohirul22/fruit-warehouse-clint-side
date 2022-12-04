@@ -28,13 +28,23 @@ const Header = () => {
 
                     </Nav>
                     <Nav>
+
+                    {
+                        user && <>
+                         <Nav.Link className='navber-items' style={{ 'color': 'lightcyan' }} as={Link} to="addItem">AddProduct</Nav.Link>
+
+                         <Nav.Link className='navber-items' style={{ 'color': 'lightcyan' }} as={Link} to="allProducts">CutProduct</Nav.Link>
+                        
+                        </>
+                    }
+
+
+
                         { user ? <Nav.Link onClick={handelSignOut}>SignOut</Nav.Link>:
                             <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         }
                         
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
-                        </Nav.Link>
+                    
                     </Nav>
                 </Navbar.Collapse>
             </Container>

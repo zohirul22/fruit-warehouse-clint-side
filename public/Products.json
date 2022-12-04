@@ -1,71 +1,9 @@
 [
     {
-        "id": 1,
-        "name": "Apple",
-        "img": "https://i.ibb.co/gR2JZXG/f10.webp",
-        "description": "This fruit is vary testy",
-        "supplier": "Zohirul Islam",
-        "price": 100,
-        "quantity": 100
-
-    },
-    {
-        "id": 2,
-        "name": "Apple",
-        "img": "https://i.ibb.co/WzFS3Qg/f16.webp",
-        "description": "This fruit is vary testy",
-        "supplier": "Shahin Islam",
-        "price": 130,
-        "quantity": 120
-    },
-    {
-        "id": 3,
-        "name": "Apple",
-        "img": "https://i.ibb.co/gyHCqjB/g9.webp",
-        "description": "This fruit is vary testy",
-        "supplier": "Sinfa Islam",
-        "price": 150,
-
-        "quantity": 220
-    },
-    {
-        "id": 4,
-        "name": "Apple",
-        "img": "https://i.ibb.co/wc99pFm/f1.webp",
-        "description": "This fruit is vary testy",
-        "supplier": "Saad Islam",
-        "price": 230,
-        "quantity": 320
-    },
-    {
-        "id": 5,
-        "name": "Apple",
-        "img": "https://i.ibb.co/7yspbQD/f7.webp",
-        "description": "This fruit is vary testy",
-        "supplier": "Ariful Islam",
-        "price": 330,
-        "quantity": 200
-    },
-    {
-        "id": 6,
-        "name": "Apple",
-        "img": "https://i.ibb.co/BfnSq6T/f11.webp",
-        "description": "This fruit is vary testy",
-        "supplier": "Shamim Islam",
-        "price": 120,
-        "quantity": 180
-    },
-    {
-        "id": 7,
-        "name": "Apple",
-        "img": "https://i.ibb.co/Bsqc4cd/g14.webp",
-        "description": "This fruit is vary testy",
-        "supplier": "Sieam Islam",
-        "price": 130,
-        "quantity": 90
-    },
-    {
-        "id": 8,
+       
+   
+   
+     
         "name": "Apple",
         "img": "https://i.ibb.co/34zVbVm/f15.webp",
         "description": "This fruit is vary testy",
@@ -74,7 +12,7 @@
         "quantity": 130
     },
     {
-        "id": 9,
+       
         "name": "Apple",
         "img": "https://i.ibb.co/P6DFs9S/f13.webp",
         "description": "This fruit is vary testy",
@@ -83,7 +21,7 @@
         "quantity": 110
     },
     {
-        "id": 10,
+       
         "name": "Mango",
         "price": 190,
         "img": "https://i.ibb.co/f9V69Gf/f2.webp",
@@ -92,16 +30,7 @@
         "quantity": 120
     },
     {
-        "id": 10,
-        "name": "Mango",
-        "price": 190,
-        "img": "https://i.ibb.co/f9V69Gf/f2.webp",
-        "description": "This fruit is vary testy",
-        "supplier": "Bristy Sultana",
-        "quantity": 120
-    },
-    {
-        "id": 10,
+       
         "name": "Mango",
         "price": 190,
         "img": "https://i.ibb.co/f9V69Gf/f2.webp",
@@ -109,5 +38,6 @@
         "supplier": "Bristy Sultana",
         "quantity": 120
     }
+  
           
 ]

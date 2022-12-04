@@ -4,7 +4,7 @@ import Product from '../Product/Product';
 import './Products.css'
 
 const Products = () => {
-  const [products , setProducts] = useProducts([])
+  const [products , setProducts] = useProducts([]);
   
     return (
         <div id='products' className=" products p-5">
@@ -14,7 +14,7 @@ const Products = () => {
                     <div className=" row g-1">
                         {
                             products.slice(0, 6).map(product => <Product
-                                key={product.id}
+                                key={product._id}
                                 product={product}
                             ></Product>)
                         }

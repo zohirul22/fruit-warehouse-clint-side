@@ -3,8 +3,9 @@ import './AllProducts.css'
 import useProducts from '../../Hooks/UseProducts';
 import AllProduct from '../AllProduct/AllProduct';
 
+
 const AllProducts = () => {
-    const [products, setProducts] = useProducts([])
+    const [products, setProducts] = useProducts([]);
     return (
         <div className="all-products">
 
@@ -19,6 +20,7 @@ const AllProducts = () => {
                         products.map(product => <AllProduct
                             key={product.id}
                             product={product}
+                            setProducts={setProducts}
                         ></AllProduct>)
                     }
                 </div>
